@@ -17,6 +17,12 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     // what a fuck ,shit on me!
+    
+    int a ,b ,c;
+    a = 10;
+    b = 10;
+    c = a + b;
+    NSLog(@"%d",c);
 }
 
 
