@@ -17,6 +17,7 @@
 		65BC63A5257777C2006845E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65BC63A4257777C2006845E6 /* main.m */; };
 		65BC63AF257777C2006845E6 /* GitOperationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65BC63AE257777C2006845E6 /* GitOperationDemoTests.m */; };
 		65BC63BA257777C3006845E6 /* GitOperationDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65BC63B9257777C3006845E6 /* GitOperationDemoUITests.m */; };
+		65BC63CC2577783A006845E6 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 65BC63CB2577783A006845E6 /* Student.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		65BC63B5257777C3006845E6 /* GitOperationDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitOperationDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65BC63B9257777C3006845E6 /* GitOperationDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitOperationDemoUITests.m; sourceTree = "<group>"; };
 		65BC63BB257777C3006845E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65BC63CA2577783A006845E6 /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		65BC63CB2577783A006845E6 /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +121,8 @@
 				65BC63A3257777C2006845E6 /* Info.plist */,
 				65BC63A4257777C2006845E6 /* main.m */,
 				65BC639B257777BD006845E6 /* GitOperationDemo.xcdatamodeld */,
+				65BC63CA2577783A006845E6 /* Student.h */,
+				65BC63CB2577783A006845E6 /* Student.m */,
 			);
 			path = GitOperationDemo;
 			sourceTree = "<group>";
@@ -274,6 +279,7 @@
 				65BC6391257777BD006845E6 /* AppDelegate.m in Sources */,
 				65BC6394257777BD006845E6 /* SceneDelegate.m in Sources */,
 				65BC639D257777BD006845E6 /* GitOperationDemo.xcdatamodeld in Sources */,
+				65BC63CC2577783A006845E6 /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
