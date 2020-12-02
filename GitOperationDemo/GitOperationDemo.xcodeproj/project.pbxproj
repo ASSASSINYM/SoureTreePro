@@ -18,6 +18,7 @@
 		65BC63AF257777C2006845E6 /* GitOperationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65BC63AE257777C2006845E6 /* GitOperationDemoTests.m */; };
 		65BC63BA257777C3006845E6 /* GitOperationDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65BC63B9257777C3006845E6 /* GitOperationDemoUITests.m */; };
 		65BC63CC2577783A006845E6 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 65BC63CB2577783A006845E6 /* Student.m */; };
+		65BC63D82577AFDD006845E6 /* Sheep.m in Sources */ = {isa = PBXBuildFile; fileRef = 65BC63D72577AFDD006845E6 /* Sheep.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,8 @@
 		65BC63BB257777C3006845E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65BC63CA2577783A006845E6 /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
 		65BC63CB2577783A006845E6 /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		65BC63D62577AFDD006845E6 /* Sheep.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sheep.h; sourceTree = "<group>"; };
+		65BC63D72577AFDD006845E6 /* Sheep.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sheep.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +126,8 @@
 				65BC639B257777BD006845E6 /* GitOperationDemo.xcdatamodeld */,
 				65BC63CA2577783A006845E6 /* Student.h */,
 				65BC63CB2577783A006845E6 /* Student.m */,
+				65BC63D62577AFDD006845E6 /* Sheep.h */,
+				65BC63D72577AFDD006845E6 /* Sheep.m */,
 			);
 			path = GitOperationDemo;
 			sourceTree = "<group>";
@@ -280,6 +285,7 @@
 				65BC6394257777BD006845E6 /* SceneDelegate.m in Sources */,
 				65BC639D257777BD006845E6 /* GitOperationDemo.xcdatamodeld in Sources */,
 				65BC63CC2577783A006845E6 /* Student.m in Sources */,
+				65BC63D82577AFDD006845E6 /* Sheep.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
