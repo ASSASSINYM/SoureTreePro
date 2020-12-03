@@ -29,9 +29,6 @@
     
     //我想本地的，和远程的都保存
     //我要保存远端的，我要保存远端
-    
-    UIImageView *imageView = [[UIImageView alloc] init];
-    [self.view addSubview:imageView];
 
 
     //https://github.com/ASSASSINYM/SoureTreePro/edit/master/GitOperationDemo/GitOperationDemo/ViewController.m
@@ -53,6 +50,9 @@
     
     
 
+// 什么情况 啊  啊 啊 啊啊 啊啊 啊
+    
+    ///我 对冲突有点迷糊了 哈哈哈😄
 }
 
 
