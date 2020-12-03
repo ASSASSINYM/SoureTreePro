@@ -29,6 +29,9 @@
     
     //我想本地的，和远程的都保存
     //我要保存远端的，我要保存远端
+    
+    UIImageView *imageView = [[UIImageView alloc] init];
+    [self.view addSubview:imageView];
 }
 
 
