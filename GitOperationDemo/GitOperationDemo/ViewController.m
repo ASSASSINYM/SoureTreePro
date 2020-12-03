@@ -38,6 +38,10 @@
 
 
     //多练习可以牛逼
+    
+    //新增一个对象
+    NSObject *obj = [NSObject new];
+    NSLog(@"%@",obj.description);
 
 
 }
