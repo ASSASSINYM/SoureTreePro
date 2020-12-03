@@ -24,7 +24,7 @@
     NSLog(@"%d",c);
     
     //i love you
-    //你是谁
+    // shit on me
 }
 
 
