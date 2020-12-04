@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		652E0B5F257A2598004FF497 /* MapPointViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 652E0B5E257A2598004FF497 /* MapPointViewController.m */; };
 		65BC6391257777BD006845E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65BC6390257777BD006845E6 /* AppDelegate.m */; };
 		65BC6394257777BD006845E6 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65BC6393257777BD006845E6 /* SceneDelegate.m */; };
 		65BC6397257777BD006845E6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65BC6396257777BD006845E6 /* ViewController.m */; };
@@ -39,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		652E0B5D257A2598004FF497 /* MapPointViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapPointViewController.h; sourceTree = "<group>"; };
+		652E0B5E257A2598004FF497 /* MapPointViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapPointViewController.m; sourceTree = "<group>"; };
 		65BC638C257777BD006845E6 /* GitOperationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitOperationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65BC638F257777BD006845E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		65BC6390257777BD006845E6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -112,6 +115,8 @@
 		65BC638E257777BD006845E6 /* GitOperationDemo */ = {
 			isa = PBXGroup;
 			children = (
+				652E0B5D257A2598004FF497 /* MapPointViewController.h */,
+				652E0B5E257A2598004FF497 /* MapPointViewController.m */,
 				65BC638F257777BD006845E6 /* AppDelegate.h */,
 				65BC6390257777BD006845E6 /* AppDelegate.m */,
 				65BC6392257777BD006845E6 /* SceneDelegate.h */,
@@ -281,6 +286,7 @@
 			files = (
 				65BC63A5257777C2006845E6 /* main.m in Sources */,
 				65BC6397257777BD006845E6 /* ViewController.m in Sources */,
+				652E0B5F257A2598004FF497 /* MapPointViewController.m in Sources */,
 				65BC6391257777BD006845E6 /* AppDelegate.m in Sources */,
 				65BC6394257777BD006845E6 /* SceneDelegate.m in Sources */,
 				65BC639D257777BD006845E6 /* GitOperationDemo.xcdatamodeld in Sources */,
