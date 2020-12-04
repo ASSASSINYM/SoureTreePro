@@ -44,12 +44,25 @@
     
     
     
-    
-    
-    
-    
-    
 
+    
+    UIView *redView = [[UIView alloc] initWithFrame:CGRectMake(100, 100, 200, 200)];
+    redView.backgroundColor = [UIColor redColor];
+    [self.view addSubview:redView];
+    
+    UIView *blueView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
+    blueView.backgroundColor = [UIColor blueColor];
+    [redView addSubview:blueView];
+    
+    
+    
+    
+        UITextField *passwordTextfield = [[UITextField alloc] initWithFrame:CGRectMake(0, 150, 200, 50)];
+        passwordTextfield.placeholder = @"请输入密码";
+        [self.view addSubview:passwordTextfield];
+    
+    
+    [redView addSubview:passwordTextfield];
 // 什么情况 啊  啊 啊 啊啊 啊啊 啊
     
     ///我 对冲突有点迷糊了 哈哈哈😄
