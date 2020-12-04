@@ -11,6 +11,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface MTADBannerCell : UICollectionViewCell
 
+@property(nonatomic,strong)id model;
+
 @end
 
 NS_ASSUME_NONNULL_END
